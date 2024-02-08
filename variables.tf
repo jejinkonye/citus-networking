@@ -29,6 +29,10 @@ variable "public_subnets" {
   }
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(Required) Billing code for network resources"
+}
 variable "environment" {
   type        = string
   description = "(Optional) Environment of all resources"
